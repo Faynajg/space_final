@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Michroma', sans-serif;
+}
+
+h1,h2 {
+    color: yellow;
+}
+
+.intro_web{  
+    height: 30rem;
+    background: black;
+}
+
+.intro_web-container{
+    margin-left: 5rem;
+}
+
+
+.intro_web p{
+    color: yellow;
+}
+
+.container_background{
+    background-image: url(../imagenes/fondo_negro.jpg);
+    height: 40rem;
+}
+
+.row_full{
+        width: 70%;
+        justify-content: space-between;
+        text-align: center;
+        color: white;
+
+}
+.row_full p {
+    margin: 0;
+}
+
+.row_full svg {
+    color: yellow;
+}
+
+.btn_explore {
+    background: none;
+    color: white;
+    width: 6rem;
+    border: solid 1px yellow;
+}
+
+.btn_explore:hover {
+    transform:scale(1.1);
+}
+
+.description_container{
+    background: black;
+    height: 30rem;
+}
+
+.description_container p{
+    color: white;
+}
+
+.description_container div img{
+    width: 40%;
+}
+
+.img_cards{
+    height: 50rem;
+    background: black;
+}
+
+.row_full_img_cards {
+    width: 80%;
+}
+
+.img_container{
+    height:20rem;
+    width: 7rem;
+}
+.back_img1 {
+    background-image: url(../imagenes/universo.jpg);
+}
+.back_img2 {
+    background-image:url(../imagenes/luna.jpg);
+    background-repeat: no-repeat;
+}
+.back_img3 {
+    background-image:url(../imagenes/astronauta.jpg);
+}
+.back_img4 {
+    background-image: url(../imagenes/modulo\ espacial.jpg);
+}
+.back_img5 {
+   background-image: url(../imagenes/nueva6.jpg);    
+}
+
+.cards_container {
+    height: 40rem;
+    background-color: black;
+}
+
+.cards_container .card{
+    background: none;
+    color: white;
+}
+
+.button_r{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+}
+
+.row_img_container {
+    width: 80%;
+}
+
+.footer{
+    height:15rem;
+    background-image: url(../imagenes/fondo_footer.jpg);
+    background-size: 100%;
+    color: white;
+    
+}
+.logo_pro{
+   width: 30px; 
+   height: 30px;
+}
